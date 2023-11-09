@@ -1,2 +1,2 @@
 # propertyweb
-This is my first project 
+This is a property advertisement web. 
