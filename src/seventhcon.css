@@ -1,0 +1,193 @@
+#outer-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#spacing-cont {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bck-img-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+.map-userdetails-con {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 330px;
+    height: 700px;
+}
+
+.left-box {
+    width: 58%;
+}
+
+.right-box {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-mail-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.com-mail-contact {
+    width: 45%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    /* padding: 35px 30px; */
+    background-color: #fff;
+}
+
+.phone-mail-box h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.phone-mail-box h6 span {
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 400;
+}
+
+.inner-com-mail-contact {
+    flex-direction: row;
+    display: flex;
+    height: 60px;
+    padding: 35px 30px;
+    align-items: center;
+}
+
+.map {
+    display: flex;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+
+.inner-com-mail-contact img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.sec-innr img {
+    height: 35px;
+}
+
+.right-box form {
+    /* margin-left: 30px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+    width: 80%;
+}
+
+.user-input-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.common-field-div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.common-field-div label {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+}
+
+.common-field-div input {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mess-input textarea {
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    font-size: 14px;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.send-btn {
+    display: flex;
+    width: 100%;
+}
+
+.send-btn button {
+    background-color: #1e1e1e;
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.send-btn fieldset {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.heading-container-uppr{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top:100px;
+}
+.heading-container-inner{
+    width: 25%;
+}
+.heading-container-inner h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+.heading-container-inner h2{ 
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+    color: #fff;
+   
+}
