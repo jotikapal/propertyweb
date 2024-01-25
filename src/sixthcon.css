@@ -1,0 +1,154 @@
+#outer-box {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+#spacing-con {
+    display: flex;
+    width: 90%;
+    background-color: white;
+    flex-direction: column;
+}
+#spacing-con ul{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:0 0 35px 0;
+}
+
+.heading-con {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+.heading-inr-con {
+    width: 33%;
+}
+
+.heading-inr-con h6 {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heading-inr-con h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+
+.properties-overview {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 30%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-con {
+    margin: 0;
+}
+
+.img-con a {
+    text-decoration: none;
+}
+
+.img-con img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prop-details {
+    width: 100%;
+}
+
+.category {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.prop-details h6 {
+    font-size: 20px;
+    color: #f35525;
+    margin-top: 6px;
+    display: inline-block;
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+.prop-details a {
+    font-size: 19px;
+    margin: 25px 0px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+.prop-details ul {
+    border-bottom: 1px solid #eaeaea;
+    list-style-type: none;
+}
+
+.prop-details li {
+    display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+
+.prop-details li span {
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.schedule-box a {
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+.properties-inner-con {
+    width: 80%;
+    padding-top: 10px;
+   
+}
+
+.houses-boxes{
+    padding: 0 0 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+}

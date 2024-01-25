@@ -1,0 +1,51 @@
+#first-outer-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 45px;
+    position: relative;
+}
+
+#spacing-con-box {
+    display: flex;
+    width: 100%;
+  flex-direction: column;
+}
+.on-picture-heading-box{
+    display: flex;
+    justify-content: center;
+}
+.toronto-box{
+    width: 65%;
+    text-align: start;
+    position: absolute;
+    top: 200px;
+}
+.toronto-box span{ 
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.toronto-box H2{ 
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 72px;
+    width: 50%;
+    margin: 0;
+}
+.toronto-box span em{ 
+    font-style: normal;
+    color: #f35525;
+}
+.toronto-box-inner{
+    width: 90%;
+}

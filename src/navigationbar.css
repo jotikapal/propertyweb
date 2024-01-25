@@ -1,0 +1,83 @@
+#navigation-bar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 150;
+}
+
+#spacing-navbar-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-logo-text {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#nav-properties {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 100%;
+    justify-content: end;
+}
+
+#nav-properties img {
+    width: 50px;
+}
+
+.navbar-prop-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.common-class-of-list-item {
+    list-style-type: none;
+    display: block;
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+}
+
+.nav-schedule-img {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.schedule-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.schedule-box span {
+    padding: 0 20px 0 10px;
+}
