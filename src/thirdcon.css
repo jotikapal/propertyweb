@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
     position: relative;
 }
 #spacing-container-1{
@@ -16,15 +16,19 @@
 }
 
 .upper-image{
-    position: absolute;
-    bottom: -270px;
+   
+     position: absolute;
+   bottom: -270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform:translateX(-50%)
 }
-.upper-image img{
+.upper-image video {
     border-radius: 10px;
+    max-width:100%;
+    height: auto;
 }
 #youtube-icon{
     width:60px;

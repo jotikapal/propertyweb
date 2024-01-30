@@ -10,6 +10,7 @@ import New22Img from './22new.jpg';
 const Component = ({ value }) => {
     return (
         <>
+       
             <div class="properties-overview">
                 <div class="properties-inner-con">
                     <div class="img-con">
@@ -131,6 +132,7 @@ const SixthContainer = () => {
     },
     ]
     return (
+        <section id="sixthContainer">
         <div id="outer-box">
             <div id="spacing-con">
                 <div class="heading-con">
@@ -142,6 +144,7 @@ const SixthContainer = () => {
                 <Component2 values={data} />
             </div>
         </div>
+        </section>
     );
 };
 export default SixthContainer;

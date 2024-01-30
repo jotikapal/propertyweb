@@ -1,0 +1,44 @@
+{
+  "hash": "1bae9165",
+  "browserHash": "b5516b08",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "09cb88bc",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b1d206ee",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "650606e4",
+      "needsInterop": false
+    },
+    "react-responsive-carousel": {
+      "src": "../../node_modules/react-responsive-carousel/lib/js/index.js",
+      "file": "react-responsive-carousel.js",
+      "fileHash": "9b7f1e67",
+      "needsInterop": true
+    },
+    "video-react": {
+      "src": "../../node_modules/video-react/lib/index.js",
+      "file": "video-react.js",
+      "fileHash": "5e4f84d7",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-BVALOWWU": {
+      "file": "chunk-BVALOWWU.js"
+    },
+    "chunk-2FATVHAI": {
+      "file": "chunk-2FATVHAI.js"
+    }
+  }
+}

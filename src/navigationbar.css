@@ -34,7 +34,9 @@
     flex-basis: 100%;
     justify-content: end;
 }
-
+.schedule-box a {
+    display: flex;
+}
 #nav-properties img {
     width: 50px;
 }
@@ -49,7 +51,6 @@
 
 .common-class-of-list-item {
     list-style-type: none;
-    display: block;
     padding: 0 30px;
     font-weight: 500;
     font-size: 15px;

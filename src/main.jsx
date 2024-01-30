@@ -6,39 +6,67 @@ import SecondContainer from './SecondContainer';
 import ThirdContainer from './ThirdContainer';
 import FourthContainer from './FourthContainer';
 import FifthContainer from './FifthContainer';
-import  SixthContainer from './SixthContainer';
+import SixthContainer from './SixthContainer';
 import SeventhContainer from './SeventhContainer';
-
 import {
   createBrowserRouter,
   RouterProvider,
   Link
 } from "react-router-dom";
+// import {
+//   ScrollingProvider,
+//   useScrollSection,
+//   Section,
+// } from 'react-scroll-section';
 
 const Home = () => {
   return (
     <div id="all-links">
-    <Navbar />
-    <FirstImgContainer />
-    <SecondContainer />
-    <ThirdContainer />
-    <FourthContainer />
-    <FifthContainer />
-    < SixthContainer  />
-    <SeventhContainer />
+      {/* <ScrollingProvider > */}
+        <Navbar />
+      {/* </ScrollingProvider> */}
+      <FirstImgContainer />
+      <SecondContainer />
+      <ThirdContainer />
+      <FourthContainer />
+      <FifthContainer />
+      < SixthContainer />
+      <SeventhContainer />
     </div>
   )
 }
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element:<Home />
-  }
+    path: "/",
+    element: <Home />
+  },
+  //  {
+  //   path: "/firstImgContainer",
+  //   element: <FirstImgContainer />
+  // }, {
+  //   path: "/secondContainer",
+  //   element: <SecondContainer />
+  // }, {
+  //   path: "/thirdContainer",
+  //   element: <ThirdContainer />
+  // }, {
+  //   path: "/fourthContainer",
+  //   element: <FourthContainer />
+  // }, {
+  //   path: "/fifthContainer",
+  //   element: <FifthContainer />
+  // }, {
+  //   path: "/sixthContainer",
+  //   element: < SixthContainer />
+  // }, {
+  //   path: "/seventhContainer",
+  //   element: <SeventhContainer />
+  // }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

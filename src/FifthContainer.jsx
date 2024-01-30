@@ -107,6 +107,7 @@ const FifthContainer = () => {
     const filteredData = data.filter(item => item.pic === (selectedProperty === "Appartment" ? appartImg : selectedProperty === "Villa House" ? villaImg : penthouseImg));
 
     return (
+        <section id="fifthContainer">
         <div id="fif-outer-box">
             <div id="fif-spacing-con">
                 <div id="upper-box">
@@ -143,6 +144,7 @@ const FifthContainer = () => {
                 <ComponentBlock2 values={filteredData} />
             </div>
         </div>
+        </section>
     )
 }
 export default FifthContainer;
