@@ -4,6 +4,7 @@ import villaImg from './villa.jpg'
 import penthouseImg from './penthouse.jpg'
 import scheduleImg from './schedule-icon.jpg'
 import './fifthcon.css'
+import { Link } from 'react-scroll'
 
 const ComponentBlock = ({ value }) => {
     return (
@@ -47,10 +48,10 @@ const ComponentBlock = ({ value }) => {
                             {value.para2}
                         </p>
                         <div class="schedule-icon">
-                            <a href=" ">
+                            <Link to='seventhContainer' smooth={true} duration={600}>
                                 <img class="schedule-img" src={scheduleImg} />
                                 <span class="schedule-icon-text">Schedule a Visit</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -108,42 +109,42 @@ const FifthContainer = () => {
 
     return (
         <section id="fifthContainer">
-        <div id="fif-outer-box">
-            <div id="fif-spacing-con">
-                <div id="upper-box">
-                    <div class="heading-box">
-                        <h6>| BEST DEAL</h6>
-                        <h2>Find Your Best Deal Right Now!</h2>
-                    </div>
-                    <div class="houses-nav-buttons">
+            <div id="fif-outer-box">
+                <div id="fif-spacing-con">
+                    <div id="upper-box">
+                        <div class="heading-box">
+                            <h6>| BEST DEAL</h6>
+                            <h2>Find Your Best Deal Right Now!</h2>
+                        </div>
+                        <div class="houses-nav-buttons">
 
-                        <button
-                            className={`common-btn ${selectedProperty === "Appartment" ? "selected" : ""}`}
-                            onClick={() => setSelectedProperty("Appartment")}
-                            type='button'
-                        >Appartment</button>
-                        <button
-                            className={`common-btn ${selectedProperty === "Villa House" ? "selected" : ""}`}
-                            onClick={() => setSelectedProperty("Villa House")}
-                            type='button'
-                        >
-                            Villa House
-                        </button>
-                        <button
-                            className={`common-btn ${selectedProperty === "Penthouse" ? "selected" : ""}`}
-                            onClick={() => setSelectedProperty("Penthouse")}
-                            type='button'
-                        >
-                            Penthouse
-                        </button>
-                        {/* <button class="appartment-btn common-btn" type='button'>Appartment</button>
+                            <button
+                                className={`common-btn ${selectedProperty === "Appartment" ? "selected" : ""}`}
+                                onClick={() => setSelectedProperty("Appartment")}
+                                type='button'
+                            >Appartment</button>
+                            <button
+                                className={`common-btn ${selectedProperty === "Villa House" ? "selected" : ""}`}
+                                onClick={() => setSelectedProperty("Villa House")}
+                                type='button'
+                            >
+                                Villa House
+                            </button>
+                            <button
+                                className={`common-btn ${selectedProperty === "Penthouse" ? "selected" : ""}`}
+                                onClick={() => setSelectedProperty("Penthouse")}
+                                type='button'
+                            >
+                                Penthouse
+                            </button>
+                            {/* <button class="appartment-btn common-btn" type='button'>Appartment</button>
                         <button class="villa-btn common-btn" type='button'>Villa House</button>
                         <button class="penthouse-btn common-btn" type='button'>Penthouse</button> */}
+                        </div>
                     </div>
+                    <ComponentBlock2 values={filteredData} />
                 </div>
-                <ComponentBlock2 values={filteredData} />
             </div>
-        </div>
         </section>
     )
 }

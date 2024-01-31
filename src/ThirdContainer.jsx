@@ -13,7 +13,7 @@ const ThirdContainer = () => {
             <div id="spacing-container-1">
                 <div className="video-view-outer">
                     <div className="video-view-iner">
-                        <h6>| VIDEO VIEW</h6>
+                        {/* <h6>| VIDEO VIEW</h6> */}
                         <h2>Get Closer View & Different Feeling</h2>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ const Navbar = () => {
                             <Link to='sixthContainer' smooth={true} duration={600}>Property Details</Link></li>
                         <li class="common-class-of-list-item">
                             <Link to='seventhContainer' smooth={true} duration={600}>Contact Us</Link></li>
-                        <li class="common-class-of-list-item schedule-box">
+                        <li class="common-class-of-list-item schedule-box-1">
                             <Link to='seventhContainer' smooth={true} duration={600} >
                                 <img class="nav-schedule-img" src={scheduleImg} />
                                 <span>Schedule a Visit</span></Link></li>

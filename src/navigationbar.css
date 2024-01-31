@@ -34,11 +34,24 @@
     flex-basis: 100%;
     justify-content: end;
 }
-.schedule-box a {
+.schedule-box-1 a {
     display: flex;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
+
 #nav-properties img {
-    width: 50px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 .navbar-prop-list-item {
@@ -79,6 +92,6 @@
     border-radius: 25px;
 }
 
-.schedule-box span {
-    padding: 0 20px 0 10px;
+.schedule-box-1 span {
+   margin-right: 20px;
 }

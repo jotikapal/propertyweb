@@ -6,11 +6,12 @@ import Old26Img from './26Old.jpg';
 import New12Img from './12New.jpg';
 import Beach34Img from './34Beach.jpg';
 import New22Img from './22new.jpg';
+import { Link } from 'react-scroll';
 
 const Component = ({ value }) => {
     return (
         <>
-       
+
             <div class="properties-overview">
                 <div class="properties-inner-con">
                     <div class="img-con">
@@ -41,9 +42,11 @@ const Component = ({ value }) => {
                                 <span>{value.parking}</span>
                             </li>
                         </ul>
-                        <div class="schedule-box">
-                            <a href="">Schedule a visit</a>
-                        </div>
+                        <Link to='seventhContainer' smooth={true} duration={600}>
+                            <div class="schedule-box">
+                                <a href="">Schedule a visit</a>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -133,17 +136,17 @@ const SixthContainer = () => {
     ]
     return (
         <section id="sixthContainer">
-        <div id="outer-box">
-            <div id="spacing-con">
-                <div class="heading-con">
-                    <div class="heading-inr-con">
-                        <h6>| PROPERTIES</h6>
-                        <h2>We Provide The Best Property You Like</h2>
+            <div id="outer-box">
+                <div id="spacing-con">
+                    <div class="heading-con">
+                        <div class="heading-inr-con">
+                            <h6>| PROPERTIES</h6>
+                            <h2>We Provide The Best Property You Like</h2>
+                        </div>
                     </div>
+                    <Component2 values={data} />
                 </div>
-                <Component2 values={data} />
             </div>
-        </div>
         </section>
     );
 };
